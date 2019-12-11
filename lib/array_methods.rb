@@ -1,9 +1,5 @@
 def find_element_index(array, value_to_find)
-  if (array.include?(value_to_find) == false)
-    return nil
-  else
-    
-  end
+ array.index(value_to_find)
 end
 
 def find_max_value(array)
